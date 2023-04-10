@@ -21,7 +21,7 @@ const {
 
 const openAi = new OpenAIApi(
 	new Configuration({
-		apiKey: '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',
+		apiKey: process.env.OPEN_AI,
 	})
 )
 
