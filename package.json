@@ -1,0 +1,65 @@
+{
+  "name": "Chatbot",
+  "version": "1.0.0",
+  "description": "Automated whatsapp md bot",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "termux",
+    "whatsapp",
+    "2022",
+    "base",
+    "baileys-md",
+    "bot",
+    "bot-md"
+  ],
+  "author": "Sachu",
+  "license": "MIT",
+  "dependencies": {
+    "@adiwajshing/baileys": "^5.0.0",
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "awesome-phonenumber": "^2.64.0",
+    "axios": "^0.24.0",
+    "chalk": "^4.1.2",
+    "cheerio": "^1.0.0-rc.12",
+    "child_process": "^1.0.2",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.0.3",
+    "file-type": "^16.5.3",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs": "0.0.1-security",
+    "got": "^11.8.3",
+    "human-readable": "^0.2.1",
+    "lowdb": "^2.1.0",
+    "moment-timezone": "^0.5.34",
+    "mongoose": "^6.2.1",
+    "mumaker": "^1.0.0",
+    "node-fetch": "^2.6.1",
+    "node-webpmux": "^3.1.1",
+    "openai": "^3.2.1",
+    "os": "^0.1.2",
+    "path": "^0.12.7",
+    "perf_hooks": "0.0.1",
+    "pino": "^7.0.5",
+    "qrcode": "^1.5.0",
+    "qrcode-reader": "^1.0.4",
+    "qrcode-terminal": "^0.12.0",
+    "qs": "^6.5.3",
+    "scrape-primbon": "^1.1.0",
+    "tod-api": "^1.0.5",
+    "util": "^0.12.4",
+    "yargs": "^17.2.1"
+  },
+  "directories": {
+    "lib": "lib",
+    "src": "src"
+  },
+  "repository": "git+https://github.com/DGXeon/CheemsBot-MD6.git",
+  "bugs": {
+    "url": "https://github.com/DGXeon/CheemsBot-MD6/issues"
+  },
+  "homepage": "https://github.com/DGXeon/CheemsBot-MD6/#readme",
+  "main": "index.js"
+}
